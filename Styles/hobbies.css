@@ -44,21 +44,21 @@
 
 .hobbies__imagenes:nth-child(1){
 
-    background: url(/Imagenes/videojuegos.png);
+    background: url(../Imagenes/videojuegos.png);
     background-position: center;
     background-size: cover;
 }
 
 .hobbies__imagenes:nth-child(2){
 
-    background: url(/Imagenes/peliculas.jpg);
+    background: url(../Imagenes/peliculas.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .hobbies__imagenes:nth-child(3){
 
-    background: url(/Imagenes/music.jpeg);
+    background: url(../Imagenes/music.jpeg);
     background-position: center;
     background-size: cover;
 }
