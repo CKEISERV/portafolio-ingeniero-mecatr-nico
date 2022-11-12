@@ -1,0 +1,64 @@
+.hobbies{
+
+    background: linear-gradient(#5EB9C0 , #5EA2C0, #1E7FA9);
+}
+
+.hobbies__titulo{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+    margin-bottom: 1rem;
+}
+
+.hobbies__grid{
+
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.333%;
+    grid-template-rows: 100%;
+    height: 200px;
+}
+
+.hobbies__imagenes{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #464646;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    margin: .2rem;
+    transition: color 1s;
+    transition: font-size 1s;
+    
+}
+
+.hobbies__imagenes:hover{
+
+ color:black;
+  font-size: 30px;
+}
+
+.hobbies__imagenes:nth-child(1){
+
+    background: url(/Imagenes/videojuegos.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.hobbies__imagenes:nth-child(2){
+
+    background: url(/Imagenes/peliculas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hobbies__imagenes:nth-child(3){
+
+    background: url(/Imagenes/music.jpeg);
+    background-position: center;
+    background-size: cover;
+}

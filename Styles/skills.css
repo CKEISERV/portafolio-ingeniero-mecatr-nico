@@ -1,0 +1,117 @@
+.skills{
+
+
+    background: linear-gradient(#91D8B4, #91D3D8, #5EB9C0);
+
+}
+
+.skills__titulo{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+
+.skills__grid{
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    height: 200px;
+
+}
+
+.skills__imagenes{
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #464646;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+    font-family:'Raleway', sans-serif;
+    font-size: 16px;
+    margin: .2rem;
+    border-radius: 10px;
+    transition: transform 1s;
+}
+
+.skills__imagenes:hover{
+
+    transform: scale(1.5);
+
+}
+
+.skills__imagenes:nth-child(1){
+
+
+    background: url(/Imagenes/html5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+     
+}
+
+.skills__imagenes:nth-child(2){
+
+    background: url(/Imagenes/css3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+   
+}
+
+.skills__imagenes:nth-child(3){
+
+    background: url(/Imagenes/js.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+    
+}
+
+.skills__imagenes:nth-child(4){
+
+    background: url(/Imagenes/java.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+   
+}
+
+.skills__imagenes:nth-child(5){
+
+    background: url(/Imagenes/office.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+    
+}
+
+.skills__imagenes:nth-child(6){
+
+    background: url(/Imagenes/matlab.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;   
+    
+}
+
+.skills__imagenes:nth-child(7){
+
+    background: url(/Imagenes/diseño.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;   
+    
+}
+
+.skills__imagenes:nth-child(8){
+
+    background: url(/Imagenes/tia.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;   
+    
+}

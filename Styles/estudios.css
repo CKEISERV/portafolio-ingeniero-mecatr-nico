@@ -1,0 +1,56 @@
+.estudios{
+
+    color: #464646;
+    background: linear-gradient( #1E7FA9, #5EA2C0, #5EB9C0);
+    
+}
+.estudios__principal{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 1rem;
+}
+.estudios__flex{
+
+    display: flex;
+
+}
+
+.estudios__contenedor{
+
+   width: 370px;
+   height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #464646;
+    
+}
+
+.estudios__contenedor:nth-child(1), .estudios__contenedor:nth-child(2){
+
+   margin-right: 3rem;
+     
+}
+.estudios__titulo{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.estudios__imagen{
+
+    width: 192px;
+    height: 130px;
+}
+
+.estudios__parrafo{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}

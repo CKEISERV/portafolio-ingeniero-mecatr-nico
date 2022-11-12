@@ -1,0 +1,14 @@
+.footer{
+
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    background:url(/Imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center;
+ 
+}

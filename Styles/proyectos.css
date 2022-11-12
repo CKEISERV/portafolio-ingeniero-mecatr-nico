@@ -1,0 +1,44 @@
+.proyectos{
+
+    font-family:'Raleway', sans-serif;
+    color: #464646;
+    background: linear-gradient( #5EB9C0, #91D3D8, #91D8B4 );
+}
+
+.proyectos__titulo{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.proyectos__proyectos{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.proyectos__proyectos:nth-child(2){
+
+    margin-top: 1rem;
+}
+.proyectos__proyectos:nth-child(3){
+
+    justify-content: center;
+
+}
+
+.proyectos__parrafo{
+
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 1rem;
+}
+
+.proyectos__imagenes{
+
+    height: 400px;
+    width: 450px;
+}
+
