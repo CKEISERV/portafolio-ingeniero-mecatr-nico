@@ -62,3 +62,16 @@
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width: 480px){
+
+    .hobbies__titulo{
+
+        font-size: 22px;
+    }
+
+    .hobbies__imagenes:nth-child(1), .hobbies__imagenes:nth-child(2), .hobbies__imagenes:nth-child(3){
+
+        background: none
+    }
+}

@@ -54,3 +54,26 @@
     text-align: center;
 
 }
+
+@media (max-width: 480px){
+
+    .estudios__principal{
+
+        font-size: 22px;
+    }
+
+    .estudios__flex{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .estudios__contenedor{
+
+        width: 100vw;
+        border:none;
+        margin-bottom: 2rem;
+    }
+    
+    
+}

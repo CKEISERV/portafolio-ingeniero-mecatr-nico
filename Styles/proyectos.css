@@ -42,3 +42,31 @@
     width: 450px;
 }
 
+@media (max-width: 480px){
+
+    .proyectos__titulo{
+
+        font-size: 22px;    
+    }
+
+    .proyectos__proyectos{
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proyectos__parrafo{
+
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .proyectos__imagenes{
+
+        margin-bottom: 1rem;
+        
+    }
+}

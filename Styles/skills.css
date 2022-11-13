@@ -115,3 +115,24 @@
     background-size: 50px 50px;   
     
 }
+
+@media (max-width: 480px){
+
+    .skills__titulo{
+
+        font-size: 22px;
+    }
+
+    .skills__grid{
+
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+        height: 500px;
+    
+
+    
+    }
+
+
+}

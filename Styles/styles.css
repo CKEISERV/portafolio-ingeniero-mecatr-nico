@@ -4,3 +4,10 @@
 
 }
 
+@media (max-width: 480px){
+
+    .container{
+
+        padding: .5rem;
+    }
+}
