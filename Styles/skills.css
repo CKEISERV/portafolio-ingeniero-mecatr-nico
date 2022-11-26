@@ -16,7 +16,7 @@
 .skills__grid{
 
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 200px;
 
@@ -43,44 +43,8 @@
 
 }
 
+
 .skills__imagenes:nth-child(1){
-
-
-    background: url(../Imagenes/html5.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
-     
-}
-
-.skills__imagenes:nth-child(2){
-
-    background: url(../Imagenes/css3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
-   
-}
-
-.skills__imagenes:nth-child(3){
-
-    background: url(../Imagenes/js.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
-    
-}
-
-.skills__imagenes:nth-child(4){
-
-    background: url(../Imagenes/java.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
-   
-}
-
-.skills__imagenes:nth-child(5){
 
     background: url(../Imagenes/office.png);
     background-repeat: no-repeat;
@@ -89,7 +53,7 @@
     
 }
 
-.skills__imagenes:nth-child(6){
+.skills__imagenes:nth-child(2){
 
     background: url(../Imagenes/matlab.png);
     background-repeat: no-repeat;
@@ -98,7 +62,7 @@
     
 }
 
-.skills__imagenes:nth-child(7){
+.skills__imagenes:nth-child(3){
 
     background: url(../Imagenes/diseño.png);
     background-repeat: no-repeat;
@@ -107,7 +71,7 @@
     
 }
 
-.skills__imagenes:nth-child(8){
+.skills__imagenes:nth-child(4){
 
     background: url(../Imagenes/tia.webp);
     background-repeat: no-repeat;
@@ -125,14 +89,7 @@
 
     .skills__grid{
 
-        display:grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 25% 25% 25% 25%;
-        height: 500px;
-    
-
-    
+        height: 300px;
     }
-
 
 }
